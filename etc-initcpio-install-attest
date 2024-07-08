@@ -1,0 +1,12 @@
+build() {
+	add_module tpm_tis
+	add_module tpm_crb
+	add_binary /usr/lib/libtss2-tcti-device.so.0
+	add_binary /usr/bin/tpm2_quote
+	add_binary /usr/bin/tr
+	add_binary /usr/bin/od
+	add_binary /usr/bin/base64
+	add_binary /usr/bin/qrencode
+	add_runscript
+}
+
