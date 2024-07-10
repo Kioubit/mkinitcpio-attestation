@@ -1,9 +1,9 @@
 run_hook () {
-    printf "\033[30;41m"
+    printf "\033[37;41;1m"
     echo "                              "
     echo " System integrity attestation "
     echo "                              "
-    printf "\033[0;0m"
+    printf "\033[0m"
 
     read -r -p "Integrity attestation nonce: " nonce_input
 
