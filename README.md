@@ -8,7 +8,7 @@ Intended to be used with the associated [android app](https://github.com/Kioubit
 
 ## Setup
 1) Clone this repository
-2) Build and install this package using ``makepgk -si``
+2) Build and install this package using ``makepkg -si``
 3) Enable this initcpio hook in ``/etc/mkinitcpio.conf`` and regenerate the initrd using ``mkinitcpio``
 4) Run ``./enroll.sh``
 5) Add the displayed public key to the [android app](https://github.com/Kioubit/tpmTool)
